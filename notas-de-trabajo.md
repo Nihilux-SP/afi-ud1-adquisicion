@@ -5,7 +5,7 @@ La ordenador se encontró encendido a las 2:59 PM hora del sistema misma hora qu
 
 ## La memoria RAM (11/11/2026 15:16):
 Usando DumpIT, genera esta ventana, automáticamente elige la ruta (donde este instalado) y el nombre del archivo destino. \
-![](Capturas/dumpit.png)
+![](Capturas/dumpit.png) \
 El archivo .raw contiene los datos de la memoria RAM de la máquina virtual.
 
 
@@ -16,10 +16,10 @@ Por lo tanto, se acabó usando el siguiente comando que extraer el hash del arch
 `certutil -hashfile "D:\windows\memoria\DumpIT\FORENSE-06-20261111-141030.raw" SHA256`
 con este comando podemos leer el hash del archivo en Windows 7.
 
-## Los datos volátiles:
+## Los datos volátiles (11/11/2026 15:32):
 No se han podido guardar los datos volátiles porque el script proporcionado no funcionaba, además he intentado modificarlo para que funcione en Windows 7 pero no llegaba a ejecutarse.
 
-## El tráfico de red:
+## El tráfico de red (11/11/2026 15:40):
 Para adquirir el tráfico de red de la máquina usamos estos comandos en orden:
 Crear carpeta donde va a guardar la captura:
 ``& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" controlvm "FORENSIC_10" nictracefile1 "C:\Users\Jose Luis\Desktop\CASP-042\red.pcap"``
@@ -32,7 +32,7 @@ Finalizar captura:
 
 Al terminar se genera red.pcap que puede ser leído a través de Wireshark.
 
-## El triaje:
+## El triaje (11/11/2026 16:40):
 Se intento usar KAPE para el triaje pero no funciona de manera correcta en Windows 7, por lo que optamos por esta serie de comandos para hacerlo a mano:
 
 **Extraer colmenas del Registro: Usuarios, USBs y Sistema.**
@@ -47,9 +47,14 @@ Se intento usar KAPE para el triaje pero no funciona de manera correcta en Windo
 **Extraer Prefetch: Rastro de programas ejecutados.**
 `Copy-Item -Path "C:\Windows\Prefetch*" -Destination "D:\salida\Prefetch" -Recurse`
 
-**Captura:**
+**Captura:** \
 ![](Capturas/triaje.png)
 
-## El cifrado:
+## El cifrado (11/11/2026 16:57):
+Para ver el cifrado, he usado la herramienta EDD desde el USB de respuesta: \
+![](Capturas/cifrado.png)
 
-## El apagado:
+El programa identifica el disco del sistema (C:, NTFS de 34 GB) y tu USB de respuesta (D:, NTFS de 31 GB), y tras analizar procesos y discos. El programa muestra que no se encontró ningún volumen cifrado. 
+
+## El apagado (11/11/2026 17:11):
+Al finalizar se opta por cortar la luz o "tirar del cable" para apagar la máquina, como si fuera un caso real, ya que podría contener scripts de borrado al apagar u otras ejecuciones que beneficien a la perdida o modificación de los datos la máquina virtual.
