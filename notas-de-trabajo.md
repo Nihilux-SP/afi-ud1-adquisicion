@@ -95,3 +95,4 @@ Dentro de la ventana, usamos "Activar para todos los USB", luego insertamos el u
 Una vez asegurado el USB, usamos FTK para realizar una imagen física del USB. Una vez realizada guardamos `bloqueo-usb.log` en nuestras evidencias (la ruta se muestra al final de la captura).
 
 # Busca tu marca:
+![](Capturas/marca_1.png) \ 
