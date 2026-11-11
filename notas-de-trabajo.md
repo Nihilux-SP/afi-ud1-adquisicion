@@ -78,4 +78,12 @@ Creamos la imagen del disco usando FTK Imager, dando la ruta de la máquina (19:
 ![](Capturas/ftk.png) \ 
 
 Una vez finalizada la imagen volvemos a calcular el hash del disco mediante el siguiente comando: \
-`Get-FileHash "C:\Users\Jose Luis\VirtualBox VMs\FORENSIC_10\FORENSIC_10_disk0.vdi" -Algorithm SHA256`
+`Get-FileHash "C:\Users\Jose Luis\VirtualBox VMs\FORENSIC_10\FORENSIC_10_disk0.vdi" -Algorithm SHA256` \
+
+Como podemos ver en la siguiente captura, el hash después de la copia del disco sigue siendo exactamente igual:
+**Hash precopia:** \
+![](Hashes/hashdisco.png) \ 
+
+**Hash post-copia:** \
+![](Hashes/hashpost.png) 
+
