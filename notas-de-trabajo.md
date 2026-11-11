@@ -66,6 +66,10 @@ Al trabajar en una versión de Windows tan desactualizada cuesta hacer uso de mu
 # Adquisición Post-Mortem
 
 ## Disco de la máquina (11/11/2026 18:52):
+Dentro de la carpeta con ubicación `C:\Users\Jose Luis\VirtualBox VMs\FORENSIC_10`, no dispone de instantáneas y estos son sus discos: 
+
+![](Capturas/maquina.png) \
+
 Para calcular el hash de todos los archivos dentro de la máquina he usado estos comandos: \
 `Get-ChildItem "C:\users\Jose Luis\VirtualBox VMs\FORENSIC_10" -Recurse -File |` \
 `Get-FileHash -Algorithm SHA256 |` \
