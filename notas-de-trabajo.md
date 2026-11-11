@@ -14,7 +14,7 @@ Tras varios intentos fallidos con comandos muy modernos para la versión de Wind
 `Get-FileHash "D:\windows\memoria\DumpIT\FORENSE-06-20261111-141030.raw" -Algorithm SHA256 | Out-File "D:\windows\memoria\DumpIT\FORENSE-06-20261111-141030.rawsha256"`
 
 Por lo tanto, se acabó usando el siguiente comando que extraer el hash del archivo .raw: \
-`certutil -hashfile "D:\windows\memoria\DumpIT\FORENSE-06-20261111-141030.raw" SHA256`
+`certutil -hashfile "D:\windows\memoria\DumpIT\FORENSE-06-20261111-141030.raw" SHA256` \
 con este comando podemos leer el hash del archivo en Windows 7.
 
 ## Los datos volátiles (11/11/2026 15:32):
