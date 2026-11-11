@@ -1,4 +1,4 @@
-# Adquisición en Vivo:
+# Adquisición en Vivo
 
 ## Estado Inicial (11/11/2026 14:59):
 La ordenador se encontró encendido a las 2:59 PM hora del sistema misma hora que la real.
