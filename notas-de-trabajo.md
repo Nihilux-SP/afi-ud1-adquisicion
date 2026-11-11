@@ -88,7 +88,7 @@ Como podemos ver en la siguiente captura, el hash después de la copia del disco
 ![](Hashes/hashpost.png) 
 
 ## Pendrive encontrado (11/11/2026 19:42):
-Uso bloqueo-usb.ps1 para poner en solo lectura el pen adquirido, de esta manera evitamos posibles archivos dañinos de ejecutarse en nuestro dispositivo.
-Dentro de la ventana, usamos "Activar para todos los USB", luego insertamos el usb y comprobamos que esta protegido y debe de quedar asi:
+Uso bloqueo-usb.ps1 para poner en solo lectura el pen adquirido, de esta manera evitamos posibles archivos dañinos de ejecutarse en nuestro dispositivo. \
+Dentro de la ventana, usamos "Activar para todos los USB", luego insertamos el usb y comprobamos que esta protegido y debe de quedar asi:\
 ![](Capturas/bloqueocorrecto.png) 
 
