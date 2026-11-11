@@ -1,0 +1,59 @@
+﻿Created By Exterro® FTK® Imager 8.3.0.27 
+
+Case Information: 
+Case Number: 02
+Evidence Number: 02
+Unique Description: 
+Examiner: Jose Luis
+Notes:  
+Encrypted Password : N/A
+
+Computer Name: DESKTOP-RPMERHI
+Windows Edition: Windows 10 Pro for Workstations
+Windows Version: Microsoft Windows 6.3.19045.6466
+OS build: 6.3.19045
+Processor: AMD Ryzen 7 5800H with Radeon Graphics         
+Installed RAM: 16 GB
+
+--------------------------------------------------------------
+
+Information for F:\salida_usb\imagen-usb:
+
+Physical Evidentiary Item (Source) Information:
+  [Device Info]
+    Source Type: Physical
+  [Drive Geometry]
+    Cylinders: 1.881
+    Tracks per Cylinder: 255
+    Sectors per Track: 63
+    Bytes per Sector: 512
+    Sector Count: 30.218.842
+  [Physical Drive Information]
+    Drive Model: Kingston DataTraveler 3.0 USB Device
+    Drive Serial Number: 0
+    Drive Interface Type: USB
+    Removable drive: True
+    Source data size: 14755 MB
+    Sector count:    30218842
+  [Computed Hashes]
+    MD5 Hash:    560b297d49903d45a43fdb74c5a7b3a7
+    SHA1 Hash:   8c6e82ba56a8980522d050ecf16eb168bdc513df
+
+Verification Definitions:
+  Computed hash: The hash calculated of the source media during the creation or verify process
+  Stored verification hash: The hash calculated during image acquisition and stored inside the image
+  Report hash: The hash calculated during image acquisition and stored in the image summary report
+
+Image Information:
+  Acquisition started:   Wed Nov 11 20:04:47 2026 (2026-11-11T19:04:47Z)
+  Acquisition finished:  Wed Nov 11 20:40:57 2026 (2026-11-11T19:40:57Z)
+  Segment list:
+    F:\salida_usb\imagen-usb.E01
+    F:\salida_usb\imagen-usb.E02
+    F:\salida_usb\imagen-usb.E03
+    F:\salida_usb\imagen-usb.E04
+    F:\salida_usb\imagen-usb.E05
+    F:\salida_usb\imagen-usb.E06
+    F:\salida_usb\imagen-usb.E07
+    F:\salida_usb\imagen-usb.E08
+    F:\salida_usb\imagen-usb.E09
