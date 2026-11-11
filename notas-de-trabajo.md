@@ -58,3 +58,6 @@ El programa identifica el disco del sistema (C:, NTFS de 34 GB) y tu USB de resp
 
 ## El apagado (11/11/2026 17:11):
 Al finalizar se opta por cortar la luz o "tirar del cable" para apagar la máquina, como si fuera un caso real, ya que podría contener scripts de borrado al apagar u otras ejecuciones que beneficien a la perdida o modificación de los datos la máquina virtual.
+
+##Incidencias:
+Al trabajar en una versión de Windows tan desactualizada cuesta hacer uso de muchas de las herramientas actuales, la mayoría de estas hay que usar comandos desactualizados como el volcado de RAM o la incapacidad de usar KAPE. Tras mucha investigación he encontrado soluciones para casi todos los pasos dentro del proyecto para intentar que sea lo más completo posible.
