@@ -74,3 +74,6 @@ Para calcular el hash de todos los archivos dentro de la máquina he usado estos
 Dando como resultado esto:
 ![](Hashes/hashdisco.png)
 
+Creamos la imagen del disco usando FTK Imager, dando la ruta de la máquina (19:08): "C:\users\Jose Luis\VirtualBox VMs\FORENSIC_10"
+Una vez finalizada la imagen volvemos a calcular el hash del disco mediante el siguiente comando: \
+`PS C:\WINDOWS\system32> Get-FileHash "C:\Users\Jose Luis\VirtualBox VMs\FORENSIC_10\FORENSIC_10_disk0.vdi" -Algorithm SHA256`
