@@ -78,4 +78,4 @@ Creamos la imagen del disco usando FTK Imager, dando la ruta de la máquina (19:
 ![](Capturas/ftk.png) \ 
 
 Una vez finalizada la imagen volvemos a calcular el hash del disco mediante el siguiente comando: \
-`PS C:\WINDOWS\system32> Get-FileHash "C:\Users\Jose Luis\VirtualBox VMs\FORENSIC_10\FORENSIC_10_disk0.vdi" -Algorithm SHA256`
+`Get-FileHash "C:\Users\Jose Luis\VirtualBox VMs\FORENSIC_10\FORENSIC_10_disk0.vdi" -Algorithm SHA256`
