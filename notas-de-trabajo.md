@@ -63,6 +63,9 @@ Al finalizar se opta por cortar la luz o "tirar del cable" para apagar la máqui
 ## Incidencias:
 Al trabajar en una versión de Windows tan desactualizada cuesta hacer uso de muchas de las herramientas actuales, la mayoría de estas hay que usar comandos desactualizados como el volcado de RAM o la incapacidad de usar KAPE. Tras mucha investigación he encontrado soluciones para casi todos los pasos dentro del proyecto para intentar que sea lo más completo posible.
 
+Además, al comprobar la marca. no mostraba nada, asi que he necesitado volver a realizar el volcado de la RAM, dando este nuevo hash y .raw:
+![](Capturas/hashnuevamemoria.png)
+
 # Adquisición Post-Mortem
 
 ## Disco de la máquina (11/11/2026 18:52):
