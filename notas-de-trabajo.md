@@ -1,4 +1,5 @@
-# Notas de trabajo:
+# Adquisición en Vivo:
+
 ## Estado Inicial (11/11/2026 14:59):
 La ordenador se encontró encendido a las 2:59 PM hora del sistema misma hora que la real.
 ![](Capturas/captura1.png)
@@ -61,3 +62,15 @@ Al finalizar se opta por cortar la luz o "tirar del cable" para apagar la máqui
 
 ## Incidencias:
 Al trabajar en una versión de Windows tan desactualizada cuesta hacer uso de muchas de las herramientas actuales, la mayoría de estas hay que usar comandos desactualizados como el volcado de RAM o la incapacidad de usar KAPE. Tras mucha investigación he encontrado soluciones para casi todos los pasos dentro del proyecto para intentar que sea lo más completo posible.
+
+# Adquisición Post-Mortem
+
+## Disco de la máquina (11/11/2026 18:52):
+Para calcular el hash de todos los archivos dentro de la máquina he usado estos comandos:
+`Get-ChildItem "C:\users\Jose Luis\VirtualBox VMs\FORENSIC_10" -Recurse -File |`
+`Get-FileHash -Algorithm SHA256 |`
+`Format-Table Path, Hash -AutoSize`
+
+Dando como resultado esto:
+![](Hashes/hashdisco.png)
+
