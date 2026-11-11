@@ -66,7 +66,7 @@ Al trabajar en una versión de Windows tan desactualizada cuesta hacer uso de mu
 # Adquisición Post-Mortem
 
 ## Disco de la máquina (11/11/2026 18:52):
-Para calcular el hash de todos los archivos dentro de la máquina he usado estos comandos:
+Para calcular el hash de todos los archivos dentro de la máquina he usado estos comandos: \
 `Get-ChildItem "C:\users\Jose Luis\VirtualBox VMs\FORENSIC_10" -Recurse -File |` \
 `Get-FileHash -Algorithm SHA256 |` \
 `Format-Table Path, Hash -AutoSize`
