@@ -82,7 +82,7 @@ Una vez finalizada la imagen volvemos a calcular el hash del disco mediante el s
 
 Como podemos ver en la siguiente captura, el hash después de la copia del disco sigue siendo exactamente igual:
 **Hash precopia:** \
-![](Hashes/hashdisco.png) \ 
+![](Capturas/ver.png) \ 
 
 **Hash post-copia:** \
 ![](Hashes/hashpost.png) 
